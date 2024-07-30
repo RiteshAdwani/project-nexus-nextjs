@@ -2,6 +2,9 @@
 
 Project Nexus is a modern web application built with Next.js 14, designed to showcase and share development projects. It provides a platform for developers to display their work, connect with others, and explore innovative projects.
 
+## Live Link
+[Project Nexus](https://project-nexus-nextjs-bff9.vercel.app/)
+
 ## Features
 
 - User authentication and authorization
