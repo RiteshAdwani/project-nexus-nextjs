@@ -189,7 +189,7 @@ export const getUserProjects = async (userId: string, page: number) => {
 
   try {
     const result = await fetch(
-      `http://localhost:3000/api/user-projects?${queryParams.toString()}`,
+      `${appUrl}/api/user-projects?${queryParams.toString()}`,
       {
         headers: { "Content-Type": "application/json" },
         next: {
@@ -268,7 +268,7 @@ export const getAllProjects = async (
   try {
     // Fetch projects from the API with the given parameters
     const result = await fetch(
-      `http://localhost:3000/api/projects?${queryParams.toString()}`,
+      `${appUrl}/api/projects?${queryParams.toString()}`,
       {
         headers: { "Content-Type": "application/json" },
         next: {
